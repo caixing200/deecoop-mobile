@@ -1,0 +1,41 @@
+
+.taro_page {
+  height: 100%;
+}
+.customtag {
+  display: inline-block;
+  color: #ffffff;
+
+  position: relative;
+  line-height: normal;
+  margin-top: 20px;
+  .customtag-text {
+    display: inline-block;
+    background-color: rgb(64,159,255);
+    padding: 0 90px 0 70px;
+    height: 80px;
+    font-size: 50px;
+    line-height: 1.5;
+    overflow: hidden;
+  }
+  .customtag-leftarrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 40px solid;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-left-color: #ffffff;
+    border-right-color: transparent;
+  }
+  .customtag-rightarrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 40px solid;
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+    border-left-color: rgb(64,159,255);
+    border-right-color: #fff;
+  }
+}

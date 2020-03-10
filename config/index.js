@@ -67,6 +67,7 @@ const config = {
   h5: {
     publicPath: '/',
     staticDirectory: 'static',
+    esnextModules: ['taro-ui'],
     postcss: {
       autoprefixer: {
         enable: true,
@@ -83,6 +84,19 @@ const config = {
         config: {
           namingPattern: 'module', // 转换模式，取值为 global/module
           generateScopedName: '[name]__[local]___[hash:base64:5]'
+        }
+      }
+    },
+    devServer:{
+      host: '0.0.0.0',
+      port: 10086,
+      proxy: {
+        '/api': {
+          target: 'https://web.ouhaicloud.com/',
+          changeOrigin: true,
+          pathRewrite: {
+            '^/api': ''
+          }
         }
       }
     }
