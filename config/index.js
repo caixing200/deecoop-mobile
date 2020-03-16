@@ -92,7 +92,7 @@ const config = {
       port: 10086,
       proxy: {
         '/api': {
-          target: 'https://web.ouhaicloud.com/',
+          target: 'https://web.deecoop.cn/',
           changeOrigin: true,
           pathRewrite: {
             '^/api': ''

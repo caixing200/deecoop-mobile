@@ -632,21 +632,21 @@ class Index extends Component {
           <Text className='customtag-rightarrow'></Text>
         </View>
         <View className='btnView'>
-          <View className='btnTitle'>模块：</View>
+          <View className='btnTitle'>功能：</View>
           <View className='btnBoxs'>
-            <View className='btnBox'>
-              <View className='btns'>
-                <View className='btn is-active'>销售</View>
-              </View>
-              <View className='btns'>
-                <View className='btn is-active'>采购</View>
-              </View>
-              <View className='btns'>
-                <View className='btn is-active'>仓库</View>
-              </View>
-              <View className='btns-long'>
-                <View className='btn is-active'>生产计划</View>
-              </View>
+            <View className='textBox'>销售、采购、仓库、生产等模块
+              {/*<View className='btns'>*/}
+              {/*  <View className='btn is-active'>销售</View>*/}
+              {/*</View>*/}
+              {/*<View className='btns'>*/}
+              {/*  <View className='btn is-active'>采购</View>*/}
+              {/*</View>*/}
+              {/*<View className='btns'>*/}
+              {/*  <View className='btn is-active'>仓库</View>*/}
+              {/*</View>*/}
+              {/*<View className='btns-long'>*/}
+              {/*  <View className='btn is-active'>生产计划</View>*/}
+              {/*</View>*/}
             </View>
           </View>
         </View>
